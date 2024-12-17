@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"52f721d033d4257f","type":"text","text":"Дизайн Компиляторов","x":-180,"y":-570,"width":240,"height":60,"color":"3"},
+		{"id":"76bf160c30034fc3","type":"text","text":"Книги","x":-120,"y":-700,"width":120,"height":60,"color":"5"},
+		{"id":"44ab5c9494f95929","type":"text","text":"[Курс от Frank'a Pfenning'a](https://www.cs.cmu.edu/~fp/courses/15411-f14/schedule.html)\nДизайн компиляторов","x":-230,"y":-420,"width":340,"height":80,"color":"#219c62"},
+		{"id":"44e679c2c31bc853","type":"text","text":"[Robert Nystrom. \nCrafting Interpreters](http://craftinginterpreters.com/contents.html)","x":-650,"y":-420,"width":340,"height":80,"color":"4"},
+		{"id":"080fe86551c26e22","type":"text","text":"Робин Хантер. \nКомпиляторы. Краткий справочник","x":-650,"y":-280,"width":340,"height":80,"color":"4"},
+		{"id":"f463b4a6827ec9a1","type":"text","text":"Основы Компиляторов","x":-600,"y":-570,"width":240,"height":60,"color":"3"},
+		{"id":"62ded6621f022477","type":"text","text":"Среды выполнения","x":260,"y":-570,"width":240,"height":60,"color":"3"},
+		{"id":"4a809f9700a8a505","type":"text","text":"[Курс от Tiark Rompf](https://www.cs.purdue.edu/homes/rompf/pmca/vol1/) \nДизайн компиляторов","x":-230,"y":-280,"width":340,"height":80,"color":"#219c62"},
+		{"id":"81a5320fb27cdd08","type":"text","text":"[Tratt L. Fast Enough VMs in Fast Enough Time](https://tratt.net/laurie/blog/entries/fast_enough_vms_in_fast_enough_time.html)\nJIT","x":210,"y":-420,"width":340,"height":80,"color":"4"},
+		{"id":"364a4f30a09862c3","x":210,"y":-280,"width":340,"height":80,"color":"4","type":"text","text":"[Tratt L. Fast Enough VMs in Fast Enough Time](https://tratt.net/laurie/blog/entries/fast_enough_vms_in_fast_enough_time.html)\nJIT"}
+	],
+	"edges":[
+		{"id":"e1a03f3eb0633515","fromNode":"76bf160c30034fc3","fromSide":"bottom","toNode":"f463b4a6827ec9a1","toSide":"top"},
+		{"id":"149c123eddabccc7","fromNode":"76bf160c30034fc3","fromSide":"bottom","toNode":"52f721d033d4257f","toSide":"top"},
+		{"id":"a19df401e58645f4","fromNode":"76bf160c30034fc3","fromSide":"bottom","toNode":"62ded6621f022477","toSide":"top"},
+		{"id":"0089045a887d0901","fromNode":"f463b4a6827ec9a1","fromSide":"bottom","toNode":"44e679c2c31bc853","toSide":"top"},
+		{"id":"ecf72c5f6e7eca5d","fromNode":"44e679c2c31bc853","fromSide":"bottom","toNode":"080fe86551c26e22","toSide":"top"},
+		{"id":"3446f419e8cad64e","fromNode":"52f721d033d4257f","fromSide":"bottom","toNode":"44ab5c9494f95929","toSide":"top"},
+		{"id":"4eccdd707ff0d7ed","fromNode":"44ab5c9494f95929","fromSide":"bottom","toNode":"4a809f9700a8a505","toSide":"top"},
+		{"id":"eca5398e9302f628","fromNode":"62ded6621f022477","fromSide":"bottom","toNode":"81a5320fb27cdd08","toSide":"top"},
+		{"id":"d84d0989ab4ee931","fromNode":"81a5320fb27cdd08","fromSide":"bottom","toNode":"364a4f30a09862c3","toSide":"top"}
+	]
+}
